@@ -27,7 +27,11 @@ export interface Translations {
   contact: {
     heading: string;
     description: string;
-    cta: string;
+    nameLabel: string;
+    emailLabel: string;
+    phoneLabel: string;
+    messageLabel: string;
+    submitLabel: string;
   };
   footer: {
     copyright: string;

@@ -20,6 +20,8 @@ export interface Project {
   title: string;
   /** Short description of what the project does */
   context: BilingualText;
+  /** Image path in public directory */
+  image: string;
   /** Technologies used */
   stack: string[];
   /** Optional external link */

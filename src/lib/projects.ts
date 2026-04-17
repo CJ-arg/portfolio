@@ -13,6 +13,8 @@ export const projects: Project[] = [
       en: "Philosophical AI mentorship platform with conversational reasoning",
       es: "Plataforma de mentoría filosófica con IA conversacional",
     },
+    image: "/projects/stoic.png",
+    url: "https://stoic-ai-mentor.vercel.app/",
     stack: ["Next.js", "OpenAI API", "TypeScript", "Prompt Engineering"],
   },
   {
@@ -22,6 +24,8 @@ export const projects: Project[] = [
       en: "Livestock management and traceability system",
       es: "Sistema de gestión y trazabilidad ganadera",
     },
+    image: "/projects/cow.png",
+    url: "https://svg-proyect.vercel.app/",
     stack: ["React", "Node.js", "PostgreSQL", "Vercel"],
   },
   {
@@ -31,6 +35,8 @@ export const projects: Project[] = [
       en: "Digital community and engagement platform",
       es: "Plataforma de comunidad y engagement digital",
     },
+    image: "/projects/clickclub.png",
+    url: "https://click-club.vercel.app/entrar?codigo=CLICKCLUB2026",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
   },
 ];

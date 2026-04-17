@@ -31,7 +31,11 @@ const en: Translations = {
     heading: "Contact",
     description:
       "Interested in working together or have a project in mind? Let's talk.",
-    cta: "Send an Email",
+    nameLabel: "Your Name",
+    emailLabel: "Email Address",
+    phoneLabel: "Phone Number",
+    messageLabel: "Message",
+    submitLabel: "Send Message",
   },
   footer: {
     copyright: "Carlos M Janon. All rights reserved.",

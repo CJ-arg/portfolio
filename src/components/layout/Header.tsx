@@ -30,7 +30,7 @@ export default function Header() {
           className="text-caption text-swiss-white tracking-widest hover:text-swiss-accent transition-colors duration-300"
           aria-label="Carlos M Janon — Home"
         >
-          CMJ
+
         </a>
 
         {/* Navigation */}
@@ -39,9 +39,11 @@ export default function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="text-caption text-swiss-gray-300 hover:text-swiss-white transition-colors duration-300"
+              className="relative group px-1 flex items-center justify-center text-caption text-swiss-gray-300 hover:text-swiss-white transition-colors duration-300"
             >
-              {t.nav[item.key]}
+              <span className="absolute -top-1 -left-1 w-0 h-0 border-t border-l border-swiss-accent opacity-0 group-hover:w-full group-hover:h-full group-hover:opacity-100 transition-all duration-300" />
+              <span className="absolute -bottom-1 -right-1 w-0 h-0 border-b border-r border-swiss-accent opacity-0 group-hover:w-full group-hover:h-full group-hover:opacity-100 transition-all duration-300" />
+              <span className="relative z-10 px-2 py-1">{t.nav[item.key]}</span>
             </a>
           ))}
           <LanguageToggle />

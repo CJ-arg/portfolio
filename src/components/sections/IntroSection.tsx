@@ -44,13 +44,6 @@ export default function IntroSection() {
             <span aria-hidden="true">→</span>
           </a>
         </div>
-
-        {/* Name anchor — bottom right for visual asymmetry */}
-        <div className="mt-20 md:mt-32 text-right">
-          <p className="text-caption text-swiss-gray-300 tracking-widest">
-            Carlos M Janon
-          </p>
-        </div>
       </Container>
     </section>
   );
